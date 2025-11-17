@@ -1,20 +1,19 @@
 library: JNW_EX_SKY130A
 cell: JNW_EX
 # Your name
-author: Anonymous
+author: Augusto Almeida
 # Your github username
-github: analogicus
+github: augustodejesus
 # Something funny and descriptive
-tagline: The answer is 42
+tagline: Skywater 130 nm Tutorial
 # Your email, if you so wish
-email: anon@anon.com
+email: augusto.almeida13@hotmail.com
 # Your github site, usually <github username>.github.io
-url: analogicus.github.io
+url: augustodejesus.github.io
 doc:
   # Make docs
-  #libraries:
-  #   <library>:
-  #       - <cell>
-  #       - <cell>
+  libraries:
+    JNW_EX_SKY130A:
+      - JNW_EX
 sim:
   # <simdir>: command
